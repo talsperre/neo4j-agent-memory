@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.python-version
+.uv-cache/
+
+# benchmark data (download separately per README)
+data/
+*.json.gz
+
+# run artifacts
+results.jsonl
+*.log
+*.log.*
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
